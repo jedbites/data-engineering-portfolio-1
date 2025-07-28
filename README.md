@@ -1,2 +1,18 @@
 # data-engineering-portfolio-1
+<<<<<<< HEAD
 Ingest data from Kaggle dataset to google cloud storage and bigquery, pre-process, data modelling through DBT, and visualize using Power BI. This will be orchestrated throught Kestra.
+=======
+
+Ingest data from Kaggle dataset to google cloud storage and bigquery, pre-process, data modelling through DBT, and visualize using Power BI. This will be orchestrated throught Kestra.
+
+Technologies used:
+
+- Python
+- SQL
+- Kestra
+- DBT
+- BigQuery
+- Google Cloud Storage
+- Terraform
+- Power BI
+>>>>>>> ea8832d (Added terraform stuff and requirements.txt.)
