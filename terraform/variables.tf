@@ -3,7 +3,8 @@ locals {
 }
 
 variable "project" {
-  description = "de-project-sample"
+  description = "de-project-portfolio-1"
+  default = "pelagic-media-461322-b2"
 }
 
 variable "region" {
@@ -24,5 +25,5 @@ variable "BQ_DATASET" {
 
 variable "GCP_CREDS" {
   description = "Path to the GCP credentials JSON file"
-  default = "./keys/gcp_creds.json"
+  default = "../keys/gcp_creds.json"
 }
