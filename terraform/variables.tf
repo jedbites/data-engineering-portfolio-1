@@ -1,5 +1,5 @@
 locals {
-  data_lake_bucket = "spotify"
+  data_lake_bucket = "standard-poor-500-stock-data"
 }
 
 variable "project" {
@@ -20,7 +20,7 @@ variable "storage_class" {
 variable "BQ_DATASET" {
     description = "BigQuery dataset that raw data will be loaded into"
     type = string
-    default = "spotify_raw"
+    default = "stocks_raw_data"
 }
 
 variable "GCP_CREDS" {

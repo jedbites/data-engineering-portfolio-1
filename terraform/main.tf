@@ -14,7 +14,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "data_lake_bucket" {
-  name          = "${local.data_lake_bucket}-${var.project}"
+  name          = "${local.data_lake_bucket}"
   location      = var.region
   storage_class = var.storage_class
 
@@ -44,7 +44,7 @@ resource "google_storage_bucket" "data_lake_bucket" {
 resource "google_bigquery_dataset" "dataset" {
   dataset_id = var.BQ_DATASET
   location = var.region
-  friendly_name = "Spotify Raw Data"
-  description = "Dataset for raw Spotify data"
+  friendly_name = "S&P 500 Raw Data"
+  description = "Dataset for storing raw S&P 500 stock data"
   project = var.project
 }
