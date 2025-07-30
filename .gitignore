@@ -20,3 +20,11 @@ keys/
 
 # tf lock file
 .terraform.lock.hcl
+
+# Python cache files
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
