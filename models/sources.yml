@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    description: A postgres database replica used by an App
+    database: dbt-tutorial
+    schema: jaffle_shop
+    tables:
+      - name: customers
+        description: customer record
+      - name: orders
+        description: order record of customer. contains cancelled and deleted orders.
